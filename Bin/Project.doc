@@ -1,0 +1,42 @@
+
+
+# Calories Burnt Prediction Project
+
+## Introduction  
+Fitness monitoring is essential for a healthy lifestyle. Accurately estimating calories burnt during activities helps in better health tracking and fitness management. Existing methods like wearables (Fitbit, Apple Watch) and formula-based calorie calculators often lack accuracy, personalization, and do not adapt well to varied real-world conditions. Machine Learning offers data-driven, improved prediction capabilities. The project uses the Calories.csv dataset for developing these models.
+
+## Existing Methods and Drawbacks  
+- Wearables and BMR-based calculators are widely used, but often provide generic, non-personalized results.  
+- They fail to capture complex non-linear relationships in data.  
+- Their accuracy diminishes in practical scenarios, and they do not automatically improve with more training data.
+
+## Objectives  
+- Develop a machine learning system to predict calories burnt based on physiological and activity features.  
+- Train and compare various regression algorithms: Linear Regression, KNN, SVR, Random Forest, and XGBoost.  
+- Evaluate models using R², Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).  
+- Recommend the best performing model for deployment.
+
+## Methodology  
+1. **Data Collection:** Use the Calories dataset containing age, gender, height, weight, heart rate, duration, body temperature, and calories burnt.  
+2. **Preprocessing:** Encode categorical features and scale numerical features.  
+3. **Model Training:** Train multiple regression models on the processed data.  
+4. **Evaluation:** Compare models on validation data using R², MAE, and RMSE.  
+5. **Visualization:** Present performance comparisons and feature importance.
+
+## Contributions  
+- Linear Regression – Krishna M R  
+- KNN – Meenakshi R  
+- Random Forest – Krishna Raj  
+- SVR – Lekshmi Anilkumar  
+- XGBoost – Melvin Bastin
+
+## Conclusion and Future Work  
+- Machine learning models successfully predict calories burnt with high accuracy.  
+- Random Forest and XGBoost models outperformed other algorithms.  
+- Linear Regression provided a baseline and tended to underfit.  
+- SVR performs well for smaller datasets; KNN is effective but slower on large datasets.  
+- Future work includes deploying the model as a standalone app or web interface, integrating real-time data from wearable devices, and exploring deep learning approaches for enhanced accuracy.
+
+***
+
+
